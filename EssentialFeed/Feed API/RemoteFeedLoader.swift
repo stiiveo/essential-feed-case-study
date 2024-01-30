@@ -11,10 +11,7 @@ public final class RemoteFeedLoader {
     private let url: URL
     private let client: HTTPClient
     
-    public enum Result: Equatable {
-        case success([FeedImage])
-        case failure(Error)
-    }
+    public typealias Result = LoadFeedResult<Error>
     
     public enum Error: Swift.Error {
         case connectivity
@@ -26,7 +23,7 @@ public final class RemoteFeedLoader {
         self.client = client
     }
     
-    public func load(completion: @escaping (Result) -> ()) {
+    public func load(completion: @escaping (Result) -> Void) {
         client.get(from: url) { [weak self] result in
             guard self != nil else { return }
             
