@@ -14,6 +14,7 @@
 		8F2A75A52B624E4B006CF39C /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A75A42B624E4B006CF39C /* RemoteFeedLoaderTests.swift */; };
 		8F2A75A82B626315006CF39C /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A75A72B626315006CF39C /* RemoteFeedLoader.swift */; };
 		8F79590B2B689B8500318B7B /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F79590A2B689B8500318B7B /* HTTPClient.swift */; };
+		8F79590D2B689BF100318B7B /* FeedImagesMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F79590C2B689BF100318B7B /* FeedImagesMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		8F2A75A42B624E4B006CF39C /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		8F2A75A72B626315006CF39C /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		8F79590A2B689B8500318B7B /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		8F79590C2B689BF100318B7B /* FeedImagesMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImagesMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				8F2A75A72B626315006CF39C /* RemoteFeedLoader.swift */,
+				8F79590C2B689BF100318B7B /* FeedImagesMapper.swift */,
 				8F79590A2B689B8500318B7B /* HTTPClient.swift */,
 			);
 			path = "Feed API";
@@ -224,6 +227,7 @@
 				8F2A75A22B6245F9006CF39C /* FeedLoader.swift in Sources */,
 				8F2A75A82B626315006CF39C /* RemoteFeedLoader.swift in Sources */,
 				8F79590B2B689B8500318B7B /* HTTPClient.swift in Sources */,
+				8F79590D2B689BF100318B7B /* FeedImagesMapper.swift in Sources */,
 				8F2A75A02B624444006CF39C /* FeedImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
